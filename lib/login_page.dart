@@ -1,3 +1,4 @@
+import 'package:demo_app/dashboard_page.dart';
 import 'package:demo_app/home_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -86,7 +87,7 @@ class _LoginPageState extends State<LoginPage> {
                         //your code
                         Navigator.of(context).push(MaterialPageRoute(
                             builder: (context) =>
-                                HomePage(emailControler.text)));
+                                DashboardPage()));
                       }
                     },
                     child: Text("Login")),
